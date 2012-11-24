@@ -5,7 +5,7 @@ A news generator
 
 Created with Processing
 
-# What does it do?
+## What does it do?
 
 Programming
 -----------
