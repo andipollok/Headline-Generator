@@ -1,12 +1,21 @@
-News from the Future
-====================
+News Generator
+==============
 
 A news generator
 
 Created with Processing
 
 ## What does it do?
-"News from the Future" generates news headlines based on a database of given words
+"News Generator" generates news headlines based on a database of given words
+
+## How to use it
+ - Edit the word database in the folder data/words
+ - In data/words, every type of word (adverbial, object, subject, transverb) has one text file, with one word each line
+ - % is a line break within a phrase
+ - You can add new types of words in data/template.txt and provide a new text file in data/words
+ - Download the font used http://www.dafont.com/ktf-roadbrush.font or use your own
+ - Compile in Processing
+ - and 
 
 ## Programming
 Andreas Koller
@@ -17,8 +26,5 @@ Jaap de Maat
 
 
 ## Acknowledgements
-Processing 
-
-```html
-<script src="js/three.min.js"></script>
-```
+Processing http://processing.org
+Rita Library http://www.rednoise.org/rita/
