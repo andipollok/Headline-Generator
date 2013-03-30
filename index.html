@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="News from the future : A news generator created with Processing" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>News from the future</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/andreaskoller/news-from-the-future">View on GitHub</a>
+
+          <h1 id="project_title">News from the future</h1>
+          <h2 id="project_tagline">A news generator created with Processing</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/andreaskoller/news-from-the-future/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/andreaskoller/news-from-the-future/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>News Generator</h1>
+
+<p>A news generator created with Processing</p>
+
+<h2>What does it do?</h2>
+
+<p>Generates fake news headlines based on a database of given words and outputs it as a typical news poster</p>
+
+<h2>How to use it</h2>
+
+<ul>
+<li>Edit the word database in the folder data/words:
+
+<ul>
+<li>In data/words, every type of word (adverbial, object, subject, transverb) has one text file, with one word each line</li>
+<li>% is a line break within a phrase</li>
+</ul>
+</li>
+<li>Define the structure of sentences in data/template.txt:
+
+<ul>
+<li>e.g.  will be replaced with a word from subject.txt</li>
+<li>define rules according to the syntax that rita provides (see link below)</li>
+<li>add new types of words in data/template.txt and provide a new text file in data/words</li>
+</ul>
+</li>
+<li>Download the font used <a href="http://www.dafont.com/ktf-roadbrush.font">http://www.dafont.com/ktf-roadbrush.font</a> or use your own</li>
+<li>Compile in Processing</li>
+<li>Interact
+
+<ul>
+<li>Press SPACE to generate a new text</li>
+<li>Press 'S' to save PDF</li>
+<li>Press 'P' to print directly from Processing sketch</li>
+<li>Add new words or change structure while running the sketch, as it will be reloaded every time (was necessary for live performance)</li>
+</ul>
+</li>
+</ul><h2>Programming</h2>
+
+<p>Andreas Koller</p>
+
+<h2>Idea &amp; Design</h2>
+
+<p>Jaap de Maat</p>
+
+<h2>Dependencies</h2>
+
+<ul>
+<li>Rita Library <a href="http://www.rednoise.org/rita/">http://www.rednoise.org/rita/</a>
+</li>
+<li>Processing <a href="http://processing.org">http://processing.org</a> (tested with Processing 1.5.1 and 2.0b8)</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">News from the future maintained by <a href="https://github.com/andreaskoller">andreaskoller</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
