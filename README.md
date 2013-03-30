@@ -1,9 +1,7 @@
 News Generator
 ==============
 
-A news generator
-
-Created with Processing
+A news generator created with Processing
 
 ## What does it do?
 "News Generator" generates news headlines based on a database of given words
