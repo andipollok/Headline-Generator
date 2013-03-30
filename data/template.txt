@@ -1,0 +1,10 @@
+{
+<start>
+
+  <subject> % <verb> % <abverb> |
+
+  <subject> % <verb> % <object> % <abverb> |
+
+  <object> % <verb> % <subject>
+
+}
